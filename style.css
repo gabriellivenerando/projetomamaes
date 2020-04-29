@@ -1,0 +1,142 @@
+.header__one{
+    height: 100px;
+    background-image:  linear-gradient(to right, rgba(255,0,0,0), rgb(248, 145, 178));
+}
+
+.header__img{
+    width: 100%;
+    max-width: 113px;
+    margin-left: 80px;
+}
+
+.header__dois{
+    height: 30px;
+    background-color: #B3CB71;
+}
+
+.header__tres{
+   background-image: url(img/imagem_header.jpg);
+   height: 470px;
+   background-size: cover;
+}
+
+.header__quatro{
+    height: 30px;
+    background-color: #B3CB71;
+}
+
+.tittle__one{
+    font-family: 'Amita', cursive;
+    margin-top: 0;
+}
+
+.button{
+    margin-top: 305px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.btn__verde{
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    border: solid 1px #B3CB71;
+    background-color: #B3CB71;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 50%;
+    color: #fff;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.btn__rosa{
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    border: solid 1px #FF7FB7;
+    background-color: #FF7FB7;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 50%;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.principal{
+    background-color: #7FF0FF;
+    height: 837px;
+}
+
+.principal__title{
+    font-family: 'Amita', cursive;
+    margin-top: 0; 
+    padding: 15px;
+    margin-left: 80px;
+    font-size: 57px;
+    margin-bottom: 0;
+    color: #FF7FB7; 
+}
+
+.nossahistoria{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+
+.icones{
+    width: 34%;
+}
+
+.quemSomos, .quemAtendemos, .trabalhos, .eventos, .ondeestamos{
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    border: solid 1px #B3CB71;
+    background-color: #B3CB71;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    margin-right: 20px;
+    font-family: 'Amita', cursive;
+}
+
+.quemsomos__img{
+    max-width: 100px;
+    width: 100%;
+}
+
+.barraverde{
+    height: 30px;
+    background-color: #B3CB71;s
+}
+.depoimento{
+    background-color: #F7CCDE;
+    height: 400px;
+}
+
+.depoimento__btn{
+    width:50%;
+    background-color:#B3CB71;
+}
+
+.teste__img{
+    max-width: 100px;
+    width: 100%;
+}
+
+.user__depoimentos{
+    display: flex;
+    width: 88%;
+}
+
+.teste2{
+    width: 47%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.ajuda{
+    background-color: #FF7FB7;
+    height: 500px;
+}
