@@ -1,6 +1,7 @@
 .header__one{
     height: 100px;
-    background-image:  linear-gradient(to right, rgba(255,0,0,0), rgb(248, 145, 178));
+    background-image:  linear-gradient(to right, rgb(255, 95, 194), rgb(252, 111, 181));
+    background-image:  linear-gradient(to bottom, rgb(238, 221, 231), rgb(236, 129, 183));
 }
 
 .header__img{
@@ -16,7 +17,7 @@
 
 .header__tres{
    background-image: url(img/imagem_header.jpg);
-   height: 470px;
+   height: 539px;
    background-size: cover;
 }
 
@@ -25,13 +26,27 @@
     background-color: #B3CB71;
 }
 
+.title{
+    width: 50%;
+    height: 200px;
+    padding: 69px;
+}
+
 .tittle__one{
     font-family: 'Amita', cursive;
     margin-top: 0;
+    color: #60D2FF;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    width: 100%;
+    height: 107px;
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 66px;
+    line-height: 63px;
+    margin-top: 62px;
 }
 
 .button{
-    margin-top: 305px;
     margin-left: 55px;
     display: flex;
     justify-content: space-between;
@@ -63,12 +78,12 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
-.principal{
+.seccao__um{
     background-color: #7FF0FF;
     height: 837px;
 }
 
-.principal__title{
+.titulo__segundo{
     font-family: 'Amita', cursive;
     margin-top: 0; 
     padding: 15px;
@@ -78,43 +93,79 @@
     color: #FF7FB7; 
 }
 
-.nossahistoria{
+.bloco__um{
+    background-color: #B3CB71;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 44%;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.bloco__img{
+    width: 100%;
+    max-width: 60px;
+    margin-left: 12px;
+    margin-right: 10px;
+
+}
+
+.bloco__titulo{
+    margin: 0;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+/* 
+.teste{
     display: flex;
     justify-content: space-evenly;
-    margin-top:20px;
-}
+} */
 
-.icones{
-    width: 34%;
+.nana{
+    width: 40%;
 }
-
-.quemSomos, .quemAtendemos, .trabalhos, .eventos, .ondeestamos{
-    padding: 20px;
-    border-radius: 30px 30px 30px 30px;
-    border: solid 1px #B3CB71;
-    background-color: #B3CB71;
-    text-transform: uppercase;
-    font-size: 20px;
-    width: 100%;
-    color: #fff;
-    margin-right: 20px;
-    font-family: 'Amita', cursive;
-}
-
-.quemsomos__img{
-    max-width: 100px;
-    width: 100%;
-}
-
 .barraverde{
     height: 30px;
-    background-color: #B3CB71;s
-}
-.depoimento{
-    background-color: #F7CCDE;
-    height: 400px;
+    background-color: #B3CB71;
 }
 
+.icone__depoimento{
+    padding: 45px;
+}
+
+.img__depoimento{
+    max-width: 69px;
+    width: 100%;
+    margin-left: 21px;
+    margin-right: 6px;
+    height: 68px;
+}
+
+.titulo__depoimento{
+    font-size: 55px;
+    margin-right: 10px;
+    margin-top: 0;
+    color:#FFFFFF;
+}
+.a{
+    width: 41%;
+    height: 78px;
+    margin-left: 68px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B3CB71;
+    border-radius: 30px;
+}
+
+.depoimento{
+    background-color: #F7CCDE;
+    height: 430px;
+}
+
+.depoimento__dois{
+    background-color: #F7CCDE;
+}
 .depoimento__btn{
     width:50%;
     background-color:#B3CB71;
@@ -125,9 +176,26 @@
     width: 100%;
 }
 
+
+.user{
+    display: flex;
+    justify-content: center;
+}
+
 .user__depoimentos{
     display: flex;
-    width: 88%;
+    width: 50%;
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 51px;
+}
+
+.user__depoimentoss{
+    display: flex;
+    width: 50%;
+    /* justify-content: center; */
+    margin-top: 61px;
+    margin-bottom: 51px;
 }
 
 .teste2{
@@ -136,7 +204,48 @@
     padding: 10px;
 }
 
+.btn__depoimentos{
+    background-color:#FF7FB7;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px #FF7FB7 solid;
+    border-radius: 30px;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+
+}
+
+.user__dois{
+    margin-top: 123px;
+}
+
+
+
 .ajuda{
     background-color: #FF7FB7;
     height: 500px;
+}
+.footer{
+    height: 250px;
+    background-image:  linear-gradient(to bottom, rgb(238, 221, 231), rgb(236, 129, 183));
+}
+.footer__endereco{
+    display: flex;
+    margin-top: 88px;
+    margin-left: 100px;
+}
+
+.logo__footer{
+    max-width: 100px;
+    width: 100%;
+}
+
+.endereco{
+    line-height: 2px;
+}
+
+.redessociais__logo{
+    max-width: 100px;
+    width: 100%;
 }
