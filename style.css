@@ -293,11 +293,10 @@
 
 }
 
+/* mobile */
 
-
-@media screen and(max-width: 800px){
-    .nossahistoria__titulo{
-        color:red;
-        font-size: 40px;
-    }
+.main__mobile, .section__mobile, .barrarosa{
+    display:none;
 }
+
+

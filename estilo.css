@@ -1,0 +1,40 @@
+.tittle__one{
+    color:red;
+    font-size: 59px;
+}
+
+.btn__rosa, .btn__verde{
+    font-size: 18px;
+    padding: 15px;
+}
+
+.button{
+    margin-left: 100px;
+    
+}
+
+.nossahistoria__um, .nossahistoria__dois{
+    width: 36%;
+}
+
+.img__breakpoint{
+    margin-left: 67px;
+
+}
+
+.titulo__breakpoint{
+    margin-left: 10px;
+}
+
+.img__breakpointt{
+    margin-left: 46px;
+
+}
+
+.titulo__breakpointt{
+    margin-left: 10px;
+}
+
+.a{
+    width: 50%;
+}
