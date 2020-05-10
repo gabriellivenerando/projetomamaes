@@ -1,0 +1,36 @@
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.quemsomos{
+    display: flex;
+    border-radius: 30px;
+    background-color: #B3CB71;
+    margin: 300px auto 30px auto;
+    width: 75%;
+    height: 59px;
+    padding: 5px;
+}
+.quemsomos__img{
+    width: 100%;
+    max-width: 59px;
+    margin: auto;
+    margin-left: 16px;
+    margin-right: 11px;
+}
+
+h2{
+    font-size: 40px;
+    margin: auto 0 auto 0;
+    color: #FFFF;
+}
+
+.quemsomos__texto>p{
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+    font-size: 22px;
+}
