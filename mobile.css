@@ -8,11 +8,10 @@ header, main, footer{
 
 .section__mobile{
     display: flex;
-    flex-direction: column;
     background-image: url(img__mobile/backgroundmobile.jpg);
-    height: 712px;
+    flex-direction: column;
+    height: 644px;
     background-size: cover;
-    /* filter:opacity(30%); */
     
 }
 

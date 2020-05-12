@@ -12,18 +12,13 @@
 }
 
 .btn__mobile{
-    height: 142px;
-    width: 48%;
+    height: 118px;
+    width: 45%;
     border: 1px solid #B3CB71;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-}
-
-.btn__mobile:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    background-color: #FFF;
 }
 
 .nossahistoria__img{
@@ -35,7 +30,7 @@
 }
 
 a{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     font-size: 12px;
     color: #B3CB71;
