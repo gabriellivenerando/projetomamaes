@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.quematendemos{
+.precisodeajuda{
     display: flex;
     border-radius: 30px;
     background-color: #B3CB71;
@@ -14,7 +14,7 @@
     padding: 5px;
 }
 
-.quematendemos__img{
+.precisodeajuda__img{
     width: 100%;
     max-width: 46px;
     margin: auto;
@@ -28,7 +28,7 @@ h2{
     color: #FFFF;
 }
 
-.quematendemos__texto>p{
+.precisodeajuda__texto>p{
     width: 302px;
     margin: auto;
     text-align: justify;
