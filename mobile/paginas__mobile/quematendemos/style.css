@@ -10,7 +10,7 @@ section{
     background-color: #B3CB71;
     margin: 200px auto 30px auto;
     width: 332px;
-    height: 48px;
+    height: 43px;
     padding: 5px;
 }
 .quematendemos__img{
@@ -23,7 +23,7 @@ section{
 
 h2{
     font-size: 32px;
-    margin: auto 0 auto 0;
+    margin: auto;
     color: #FFFF;
 }
 
