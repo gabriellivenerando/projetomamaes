@@ -1,38 +1,35 @@
-.header__one{
+
+.header__barrarosa{
     height: 100px;
     background-image:  linear-gradient(to right, rgb(255, 95, 194), rgb(252, 111, 181));
     background-image:  linear-gradient(to bottom, rgb(238, 221, 231), rgb(236, 129, 183));
 }
 
-.header__img{
+.logo{
     width: 100%;
     max-width: 113px;
     margin-left: 80px;
 }
 
-.header__dois{
+.barraverde{
     height: 30px;
     background-color: #B3CB71;
 }
 
-.header__tres{
+.background{
    background-image: url(img/imagem_header.jpg);
    height: 539px;
    background-size: cover;
 }
 
-.header__quatro{
-    height: 30px;
-    background-color: #B3CB71;
-}
 
-.title{
+.background__box{
     width: 50%;
     height: 200px;
     padding: 69px;
 }
 
-.tittle__one{
+.background__titulo{
     font-family: 'Amita', cursive;
     margin-top: 0;
     color: #60D2FF;
@@ -46,7 +43,7 @@
     margin-top: 62px;
 }
 
-.button{
+.background__btn{
     margin-left: 55px;
     display: flex;
     justify-content: space-between;
@@ -78,6 +75,19 @@
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
+
+.box__titulo{
+    background-color: #7FF0FF;
+}
+.titulo__principal{
+    font-family: 'Amita', cursive;
+    color: #F8509A;
+    margin: 0;
+    padding: 29px;
+    font-size: 50px;
+    
+}
+
 .nossahistoria{
     display: flex;
     justify-content: space-around;
@@ -85,85 +95,98 @@
     background-color: #7FF0FF;
 }
 
-.nossahistoria__um, .nossahistoria__dois{
-    width: 30%;
-  
+.nossahistoria__box{
+    width: 500px;
 }
 
-.nossahistoria__quemsomos, .nossahistoria__quematendemos{
+.nossahistoria__areaicone{
     background-color: #B3CB71;
-    margin-top: 20px;
     display: flex;
     border-radius: 30px 30px 30px 30px;
     height: 48px;
-    
+    width: 400px;
+    margin: 20px auto auto auto;
 }
-
-.nossahistoria__img{
-    max-width: 58px;
-    width: 100%;
-    height: 46px;
-    margin-left: 16px;
-}
-
-.nossahistoria__titulo{
-    margin-top: 0;
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-/* /* /* .seccao__um{
-    background-color: #7FF0FF;
-    height: 837px;
-} */
-
-/* .titulo__segundo{
-    font-family: 'Amita', cursive;
-    margin-top: 0; 
-    padding: 15px;
-    margin-left: 80px;
-    font-size: 57px;
-    margin-bottom: 0;
-    color: #FF7FB7; 
-}
-
-.bloco__um{
-    background-color: #B3CB71;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    width: 44%;
-    border-radius: 20px;
-    height: 50px;
-}
-
-.bloco__img{
-    width: 100%;
-    max-width: 60px;
-    margin-left: 12px;
-    margin-right: 10px;
-
-}
-
-.bloco__titulo{
-    margin: 0;
-    font-size: 40px;
-    color: #FFFFFF;
-} */
-/* 
 .teste{
+    width: 486px;
+}
+
+.nossahistoria__depoimento{
+    background-color: #B3CB71;
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+    height: 48px;
+    width: 400px;
+    margin-top: 30px;
+}
+.img__box{
+    margin:auto;
+    width: 275px;
+    /* background: red; */
     display: flex;
     justify-content: space-evenly;
-} */
-
-
-
-
-
-.barraverde{
-    height: 30px;
-    background-color: #B3CB71;
 }
+
+.box-quematendemos{
+    width: 340px;
+}
+
+.box-trabalhos{
+    width: 260px;
+
+}
+.box-eventos{
+    width: 225px;
+}
+
+.box-ondeestamos{
+    width: 303px;
+}
+
+.box-depoimentos{
+    width: 310px;
+}
+
+.img__icone{
+    max-width: 52px;
+    width: 100%;
+    height: 46px;
+}
+
+.img__titulo{
+    margin-top: 0;
+    font-size: 30px;
+    margin: 0;
+    color: #FFF;
+    font-family: 'Amita', cursive;
+    text-transform: uppercase;
+}
+
+.nossahistoria__texto{
+    text-align: justify;
+    font-size: 30px;
+}
+
+
+.nossahistoria-mapa{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.mapa{
+    
+    height: 300px;
+    margin-top:30px;
+}
+
+.mapa-dois{
+    margin:auto;
+    margin-top: 30px;
+}
+
+
+
+
 
 .icone__depoimento{
     padding: 45px;
@@ -178,10 +201,15 @@
 }
 
 .titulo__depoimento{
-    font-size: 55px;
+    /* font-size: 55px;
     margin-right: 10px;
     margin-top: 0;
-    color:#FFFFFF;
+    color:#FFFFFF; */
+    font-size: 30px;
+    margin: 0;
+    color: #FFF;
+    font-family: 'Amita', cursive;
+    text-transform: uppercase;
 }
 .a{
     width: 41%;
@@ -195,7 +223,13 @@
 
 .depoimento{
     background-color: #F7CCDE;
-    height: 430px;
+    height: 230px;
+}
+
+.depoimento__um{
+    background: #F7CCDE;
+    height: 69px;
+    padding: 19px;
 }
 
 .depoimento__dois{
@@ -207,8 +241,9 @@
 }
 
 .teste__img{
-    max-width: 100px;
+    max-width: 65px;
     width: 100%;
+    margin-left: 28px;
 }
 
 
@@ -232,7 +267,9 @@
     margin-top: 61px;
     margin-bottom: 51px;
 }
-
+.teste1{   
+    width: 121px;
+}
 .teste2{
     width: 64%;
     background-color: #fff;
@@ -245,10 +282,14 @@
     font-size: 20px;
     border: 1px #FF7FB7 solid;
     border-radius: 30px;
-    color: #FFFFFF;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     text-transform: uppercase;
 
+}
+
+a{
+    text-decoration: none;
+    color:#FFFF;
 }
 
 .user__dois{
@@ -267,8 +308,9 @@
 }
 .footer__endereco{
     display: flex;
-    margin-top: 88px;
-    margin-left: 100px;
+    margin: 88px auto auto auto;
+    width: 800px;
+
 }
 
 .logo__footer{
