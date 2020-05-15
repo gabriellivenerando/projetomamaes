@@ -426,7 +426,7 @@ p{
     }
 
     .depoimento{
-        height: 621px;
+        height: 424px;
     }
 
     .depoimento__texto{
@@ -436,5 +436,33 @@ p{
     .depoimento__projeto{
         flex-direction: column;
         width: 232px;
+    }
+
+    .depoimentos__img{
+        display: none;
+    }
+
+    .depoimentos__btn{
+        width: 244px;
+        font-size: 17px;
+    }
+
+    .footer{
+        height: 530px;
+    }
+
+    .footer__box{
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .endereco__box{
+        line-height: 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .redessociais{
+        margin: auto;
     }
 }
