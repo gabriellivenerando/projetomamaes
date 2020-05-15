@@ -31,23 +31,22 @@
 
 .background__titulo{
     font-family: 'Amita', cursive;
-    margin-top: 0;
     color: #60D2FF;
     text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    width: 100%;
-    height: 107px;
+    width: 563px;
+    height: 137px;
     padding: 20px;
-    margin-left: 30px;
-    font-size: 66px;
-    line-height: 63px;
+    margin-left: 52px;
+    font-size: 78px;
+    line-height: 79px;
     margin-top: 62px;
 }
 
 .background__btn{
-    margin-left: 55px;
+    margin-left: 164px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 37%;
 }
 
 .btn__verde{
@@ -57,7 +56,7 @@
     background-color: #B3CB71;
     text-transform: uppercase;
     font-size: 20px;
-    width: 50%;
+    width: 254px;
     color: #fff;
     margin-right: 20px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
@@ -70,7 +69,7 @@
     background-color: #FF7FB7;
     text-transform: uppercase;
     font-size: 20px;
-    width: 50%;
+    width: 254px;
     color: #fff;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
@@ -96,33 +95,21 @@
 }
 
 .nossahistoria__box{
-    width: 500px;
+    width: 644px;
 }
 
 .nossahistoria__areaicone{
     background-color: #B3CB71;
     display: flex;
     border-radius: 30px 30px 30px 30px;
-    height: 48px;
-    width: 400px;
+    height: 70px;
+    width: 515px;
     margin: 20px auto auto auto;
 }
-.teste{
-    width: 486px;
-}
 
-.nossahistoria__depoimento{
-    background-color: #B3CB71;
-    display: flex;
-    border-radius: 30px 30px 30px 30px;
-    height: 48px;
-    width: 400px;
-    margin-top: 30px;
-}
 .img__box{
     margin:auto;
     width: 275px;
-    /* background: red; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -164,119 +151,72 @@
 
 .nossahistoria__texto{
     text-align: justify;
-    font-size: 30px;
+    font-size: 22px;
 }
-
 
 .nossahistoria-mapa{
     display:flex;
     flex-direction: column;
     margin:auto;
 }
-.mapa{
+.box__img-mapa{
     
     height: 300px;
     margin-top:30px;
 }
 
-.mapa-dois{
+.box__mapa{
     margin:auto;
     margin-top: 30px;
 }
 
-
-
-
-
-.icone__depoimento{
-    padding: 45px;
+.depoimento__box{
+    background: #F7CCDE;
+    height: 93px;
+    padding: 19px;
 }
 
-.img__depoimento{
-    max-width: 69px;
-    width: 100%;
-    margin-left: 21px;
-    margin-right: 6px;
-    height: 68px;
-}
-
-.titulo__depoimento{
-    /* font-size: 55px;
-    margin-right: 10px;
-    margin-top: 0;
-    color:#FFFFFF; */
-    font-size: 30px;
-    margin: 0;
-    color: #FFF;
-    font-family: 'Amita', cursive;
-    text-transform: uppercase;
-}
-.a{
-    width: 41%;
-    height: 78px;
-    margin-left: 68px;
-    display: flex;
-    justify-content: space-between;
+.nossahistoria__depoimento{
     background-color: #B3CB71;
-    border-radius: 30px;
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+    height: 70px;
+    width: 410px;
+    margin-top: 30px;
 }
 
 .depoimento{
     background-color: #F7CCDE;
     height: 230px;
+    display: flex;
+    justify-content: center;
 }
 
-.depoimento__um{
-    background: #F7CCDE;
-    height: 69px;
-    padding: 19px;
+.depoimento__projeto{
+    display: flex;
+    width: 525px;
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 51px;
 }
 
-.depoimento__dois{
-    background-color: #F7CCDE;
-}
-.depoimento__btn{
-    width:50%;
-    background-color:#B3CB71;
+.depoimento__projeto-box{   
+    width: 121px;
 }
 
-.teste__img{
+.depoimentos__img{
     max-width: 65px;
     width: 100%;
     margin-left: 28px;
 }
 
-
-.user{
-    display: flex;
-    justify-content: center;
-}
-
-.user__depoimentos{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin-top: 61px;
-    margin-bottom: 51px;
-}
-
-.user__depoimentoss{
-    display: flex;
-    width: 50%;
-    /* justify-content: center; */
-    margin-top: 61px;
-    margin-bottom: 51px;
-}
-.teste1{   
-    width: 121px;
-}
-.teste2{
-    width: 64%;
+.depoimento__texto{
+    width: 409px;
     background-color: #fff;
-    padding: 10px;
 }
 
-.btn__depoimentos{
+
+.depoimentos__btn{
     background-color:#FF7FB7;
     padding: 20px;
     font-size: 20px;
@@ -284,7 +224,7 @@
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     text-transform: uppercase;
-
+    width: 280px;
 }
 
 a{
@@ -292,34 +232,28 @@ a{
     color:#FFFF;
 }
 
-.user__dois{
-    margin-top: 123px;
+p{
+    text-align: center;
 }
 
-
-
-.ajuda{
-    background-color: #FF7FB7;
-    height: 500px;
-}
 .footer{
     height: 250px;
     background-image:  linear-gradient(to bottom, rgb(238, 221, 231), rgb(236, 129, 183));
 }
-.footer__endereco{
+
+.footer__box{
     display: flex;
     margin: 88px auto auto auto;
     width: 800px;
-
 }
 
-.logo__footer{
+.endereco__box{
+    line-height: 2px;
+}
+
+.endereco__logo{
     max-width: 100px;
     width: 100%;
-}
-
-.endereco{
-    line-height: 2px;
 }
 
 .redessociais{
@@ -332,13 +266,175 @@ a{
 .redessociais__logo{
     max-width: 58px;
     width: 100%;
-
 }
+
 
 /* mobile */
 
-.main__mobile, .section__mobile, .barrarosa{
-    display:none;
+@media screen and (max-width: 1330px){
+    .background__titulo{
+        color:pink;
+    }
+
+    .background__btn{
+        width: 39%;
+    }
+    .nossahistoria{
+        flex-direction: column;
+    }
+    .nossahistoria__box{
+        margin: auto;
+    }
 }
 
 
+@media screen and (max-width: 1250px){
+    .background__titulo{
+        color:red;
+        margin-left: 39px;
+        width: 523px;
+        font-size: 72px;
+    }
+
+    .background__btn{
+        width: 41%;
+        margin-left: 149px;
+    }
+
+    .btn__verde, .btn__rosa{
+        width: 254px;
+    }
+
+}
+
+@media screen and (max-width: 1190px){
+    .background__titulo{
+        color:green;
+        margin-left: 30px;
+    }
+
+    .background__btn{
+        width: 43%;
+        margin-left: 130px;
+    }
+}
+
+
+@media screen and (max-width: 1140px){
+    .background__titulo{
+        color:black;
+        margin-left: 28px;
+        font-size: 63px;
+        width: 454px;
+    }
+
+    .background__btn{
+        width: 45%;
+        margin-left: 92px;
+    }
+
+    .depoimento{
+        height: 365px;
+        flex-direction: column;
+    }
+
+    .depoimento__projeto{
+        margin: auto;
+    }
+
+    .depoimentos__btn{
+        width: 329px;
+    }
+
+    .nossahistoria__depoimento{
+        width: 321px;
+    }
+
+    .nossahistoria__box{
+        width: 477px;
+    }
+
+    .nossahistoria__areaicone{
+        width: 446px;
+    }
+
+    .nossahistoria__depoimento{
+        margin-left: 29px;
+    }
+}
+
+
+@media screen and (max-width: 1090px){
+    .background__titulo{
+        color:white;
+        margin-left: 28px;
+        font-size: 63px;
+        width: 454px;
+    }
+
+    .background__btn{
+        width: 499px;
+        margin-left: 50px;
+    }
+
+    .btn__verde, .btn__rosa{
+        width: 231px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 700px){
+    .background__titulo{
+        color:white;
+        margin-left: 28px;
+        font-size: 63px;
+        width: 454px;
+    }
+
+    .background__btn{
+        width: 499px;
+        margin-left: 50px;
+    }
+
+    .btn__verde, .btn__rosa{
+        width: 231px;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+    .titulo__principal{
+        font-size: 38px;
+    }
+
+    .nossahistoria__box {
+        width: 265px;
+    }
+
+    .nossahistoria__areaicone {
+        width: 282px;
+    }
+
+    .img__titulo{
+        font-size: 25px;
+    }
+
+    .nossahistoria__depoimento {
+        width: 230px;
+    }
+
+    .depoimento{
+        height: 621px;
+    }
+
+    .depoimento__texto{
+        width: 232px;
+    }
+
+    .depoimento__projeto{
+        flex-direction: column;
+        width: 232px;
+    }
+}
