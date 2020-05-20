@@ -49,6 +49,10 @@
     width: 37%;
 }
 
+.background__btn-mobile{
+    display:none;
+}
+
 .btn__verde{
     padding: 20px;
     border-radius: 30px 30px 30px 30px;
@@ -151,7 +155,7 @@
 
 .nossahistoria__texto{
     text-align: justify;
-    font-size: 22px;
+    font-size: 17px;
 }
 
 .nossahistoria-mapa{
@@ -168,6 +172,10 @@
 .box__mapa{
     margin:auto;
     margin-top: 30px;
+}
+
+.box__mapa-mobile{
+    display: none;
 }
 
 .depoimento__box{
@@ -405,6 +413,35 @@ p{
 }
 
 @media screen and (min-width:300px) and (max-width:700px){
+    .background{
+        height: 195px;
+        background-size: 57vh;
+    }
+    .background__box, .background__btn{
+        display: none;
+    }
+
+    .box__img{
+        width: 100px;
+        margin: auto;
+    }
+
+    .logo{
+        margin: auto;
+    }
+
+    .background__btn-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 267px;
+        margin-left: 33px;
+    }
+
+    .btn__verde, .btn__rosa{
+        width: 113px;
+        margin-top: 19px;
+        border-radius: 18px;
+    }
     .titulo__principal{
         font-size: 38px;
     }
@@ -414,11 +451,43 @@ p{
     }
 
     .nossahistoria__areaicone {
-        width: 282px;
+        width: 242px;
+        border-radius: 74px;
+        height: 41px;
+    }
+
+    .box-trabalhos{
+        width: 158px;
+    }
+
+    .box-eventos {
+        width: 145px
+    }
+
+    .box-ondeestamos{
+        width: 203px;
+    }
+
+    .img__box-mobile{
+        width: 184px;
+    }
+
+    .img__icone{
+        max-width: 38px;
+        height: 37px;
     }
 
     .img__titulo{
-        font-size: 25px;
+        font-size: 19px;
+    }
+
+    .box__mapa{
+        display: none;
+    }
+
+    .box__mapa-mobile{
+        display: flex;
+        margin: auto;
     }
 
     .nossahistoria__depoimento {
@@ -426,7 +495,11 @@ p{
     }
 
     .depoimento{
-        height: 424px;
+        height: 360px;
+    }
+
+    .depoimento__box{
+        height: 103px;
     }
 
     .depoimento__texto{
@@ -449,11 +522,13 @@ p{
 
     .footer{
         height: 530px;
+        height: 345px;
     }
 
     .footer__box{
         flex-direction: column;
         width: 300px;
+        margin: 20px auto auto auto;
     }
 
     .endereco__box{
