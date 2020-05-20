@@ -445,15 +445,20 @@ p{
     .titulo__principal{
         font-size: 38px;
     }
-
+    
     .nossahistoria__box {
         width: 265px;
     }
-
+    
     .nossahistoria__areaicone {
         width: 242px;
         border-radius: 74px;
         height: 41px;
+    }
+    
+    .nossahistoria__depoimento {
+        width: 196px;
+        height: 43px;
     }
 
     .box-trabalhos{
@@ -466,6 +471,10 @@ p{
 
     .box-ondeestamos{
         width: 203px;
+    }
+
+    .box-depoimentos{
+        width: 179px;
     }
 
     .img__box-mobile{
@@ -488,11 +497,9 @@ p{
     .box__mapa-mobile{
         display: flex;
         margin: auto;
+        margin-bottom: 61px;
     }
 
-    .nossahistoria__depoimento {
-        width: 230px;
-    }
 
     .depoimento{
         height: 360px;
