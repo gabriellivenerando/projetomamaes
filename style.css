@@ -498,7 +498,7 @@ p{
 
 
     .depoimento{
-        height: 434px;
+        height: 533px;
     }
 
     .depoimento__box{
@@ -518,6 +518,7 @@ p{
     .depoimento__projeto{
         flex-direction: column;
         width: 232px;
+        margin-top: 43px;
     }
 
     .depoimentos__img{
