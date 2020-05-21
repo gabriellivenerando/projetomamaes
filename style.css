@@ -498,7 +498,7 @@ p{
 
 
     .depoimento{
-        height: 380px;
+        height: 434px;
     }
 
     .depoimento__box{
@@ -507,6 +507,12 @@ p{
 
     .depoimento__texto{
         width: 232px;
+    }
+
+    .texto__um, .texto__dois, .texto__tres{
+        text-align: justify;
+        padding: 14px;
+        width: 200px;
     }
 
     .depoimento__projeto{
@@ -543,4 +549,6 @@ p{
     .redessociais{
         margin: auto;
     }
+
+    
 }
