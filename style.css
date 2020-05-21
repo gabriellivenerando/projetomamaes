@@ -518,7 +518,7 @@ p{
     .depoimento__projeto{
         flex-direction: column;
         width: 232px;
-        margin-top: 43px;
+        margin-top: 82px;
     }
 
     .depoimentos__img{
@@ -531,8 +531,7 @@ p{
     }
 
     .footer{
-        height: 530px;
-        height: 345px;
+        height: 372px;
     }
 
     .footer__box{
