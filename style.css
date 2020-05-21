@@ -1,13 +1,13 @@
 
 .header__barrarosa{
-    height: 100px;
+    height: 146px;
     background-image:  linear-gradient(to right, rgb(255, 95, 194), rgb(252, 111, 181));
     background-image:  linear-gradient(to bottom, rgb(238, 221, 231), rgb(236, 129, 183));
 }
 
 .logo{
     width: 100%;
-    max-width: 113px;
+    max-width: 134px;
     margin-left: 80px;
 }
 
@@ -280,9 +280,6 @@ p{
 /* mobile */
 
 @media screen and (max-width: 1330px){
-    .background__titulo{
-        color:pink;
-    }
 
     .background__btn{
         width: 39%;
@@ -298,7 +295,6 @@ p{
 
 @media screen and (max-width: 1250px){
     .background__titulo{
-        color:red;
         margin-left: 39px;
         width: 523px;
         font-size: 72px;
@@ -317,7 +313,6 @@ p{
 
 @media screen and (max-width: 1190px){
     .background__titulo{
-        color:green;
         margin-left: 30px;
     }
 
@@ -330,7 +325,6 @@ p{
 
 @media screen and (max-width: 1140px){
     .background__titulo{
-        color:black;
         margin-left: 28px;
         font-size: 63px;
         width: 454px;
@@ -374,7 +368,6 @@ p{
 
 @media screen and (max-width: 1090px){
     .background__titulo{
-        color:white;
         margin-left: 28px;
         font-size: 63px;
         width: 454px;
@@ -395,7 +388,6 @@ p{
 
 @media screen and (max-width: 700px){
     .background__titulo{
-        color:white;
         margin-left: 28px;
         font-size: 63px;
         width: 454px;
@@ -412,10 +404,14 @@ p{
 
 }
 
-@media screen and (min-width:300px) and (max-width:700px){
+@media screen and (min-width:300px) and (max-width:600px){
+
+    .header__barrarosa{
+        height: 132px;
+    }
     .background{
         height: 195px;
-        background-size: 57vh;
+        background-size: cover;
     }
     .background__box, .background__btn{
         display: none;
