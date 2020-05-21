@@ -510,7 +510,7 @@ p{
     }
 
     .texto__um, .texto__dois, .texto__tres{
-        text-align: justify;
+        text-align: center;
         padding: 14px;
         width: 200px;
     }
