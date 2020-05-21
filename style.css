@@ -530,6 +530,10 @@ p{
         display: none;
     }
 
+    .depoimento__texto{
+        height: 187px;
+    }
+
     .depoimentos__btn{
         width: 244px;
         font-size: 17px;
