@@ -17,9 +17,9 @@
 }
 
 .background{
-   background-image: url(img/imagem_header.jpg);
-   height: 539px;
-   background-size: cover;
+    background-image: url(img/imagem_header.jpg);
+    height: 539px;
+    background-size: cover;
 }
 
 
@@ -452,9 +452,13 @@ p{
     }
     
     .nossahistoria__areaicone {
-        width: 242px;
+        width: 271px;
         border-radius: 74px;
         height: 41px;
+    }
+
+    .box-quematendemos {
+        width: 217px;
     }
     
     .nossahistoria__depoimento {
@@ -517,12 +521,17 @@ p{
     .depoimento__mobile{
         display: flex;
         flex-direction: column;
-        height: 683px;
+        height: 823px;
         background: #F7CCDE;
     }
 
     .depoimento__projeto-mobile{
         margin: auto;
+    }
+
+    .depoimento__projeto-box{
+        display: flex;
+        justify-content: start; 
     }
 
     .depoimento__box{
@@ -531,7 +540,7 @@ p{
 
     .depoimento__texto{
         width: 232px;
-    } */
+    }
 
     .texto__um, .texto__dois, .texto__tres{
         text-align: center;
